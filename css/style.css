@@ -149,6 +149,17 @@ body {
   margin-left: 5px;
 }
 
+.azn-val .fa-solid,
+.azn-val2 .fa-solid {
+  margin-left: 5px;
+}
+
+.azn-val2 {
+  display: flex;
+  align-items: center;
+}
+
+
 .fa-sign-in {
   font-size: 24px;
   transform: translateY(3px);
@@ -212,10 +223,6 @@ body {
   color: #9ea4a6;
   font-size: 14px;
   transform: translateY(-1px) !important;
-}
-
-.drop-right {
-  /* transform: translateY(2px); */
 }
 
 .fa-bars {
@@ -2284,7 +2291,7 @@ input[type=number]::-webkit-outer-spin-button {
 .satis-inp,
 .mebleg-inp,
 .hesablama {
-  margin-right: 30px;
+  margin-right: 4px;
 }
 
 .satis-inp input {
@@ -3083,6 +3090,15 @@ input[type=number] {
     height: 217px !important;
   }
 
+  #dropdown-label1,
+  #dropdown-label2,
+  #dropdown-label3,
+  #dropdown-label4,
+  #dropdown-label5,
+  #dropdown-label6 {
+    font-size: 14px !important;
+  }
+
   .header-right-text ul a {
     margin: 0;
   }
@@ -3156,7 +3172,6 @@ input[type=number] {
   .dropdown2 img,
   .dropdown3 img,
   .dropdown5 img {
-    /* width: 100% !important; */
     margin: 20px 0 0 0 !important;
   }
 
@@ -3175,6 +3190,10 @@ input[type=number] {
 
   .dropbtn {
     padding: 0;
+  }
+
+  .dropdown-arrowss {
+    transform: translateY(-3px);
   }
 
   #dropdown-srch-icon {
@@ -3602,6 +3621,29 @@ input[type=number] {
   .section-5-bg {
     top: 620% !important;
   }
+
+  #dropdown-label6,
+  #dropdown-label2,
+  #dropdown-label4,
+  #dropdown-label5 {
+    font-size: 14px;
+  }
+
+  #dropdown-label3,
+  #dropdown-label1 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    width: 100%;
+    font-size: 12px !important;
+  }
+}
+
+@media only screen and (min-width: 313px) and (max-width: 369px) {
+  #dropdown-label3 {
+    font-size: 12px !important;
+  }
 }
 
 @media only screen and (max-width: 321px) {
@@ -3621,6 +3663,12 @@ input[type=number] {
 @media only screen and (max-width: 282px) {
   .calculator-bg {
     top: 352% !important;
+  }
+}
+
+@media only screen and (max-width: 296px) {
+  .valyuta .dot {
+    display: none;
   }
 }
 
@@ -3888,6 +3936,7 @@ input[type=number] {
   .dropdown3 img,
   .dropdown5 img {
     width: 100% !important;
+    height: 100% !important;
   }
 }
 
@@ -4078,11 +4127,6 @@ input[type=number] {
   .cards3 {
     border-radius: 4px;
     width: 100%;
-  }
-
-  .cards3 {
-    /* box-shadow: 0 4px 16px rgba(0, 0, 0, .04); */
-    /* padding: 16px 20px; */
   }
 
   .cards-title h6 {
